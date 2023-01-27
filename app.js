@@ -7,7 +7,7 @@ const _ = require("lodash");
 
 const mongoose = require("mongoose");
 const { urlencoded } = require("body-parser");
-mongoose.connect(/* Add mongodb connection link here. */, {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-pranav:admin-pranav@cluster0.kwefnxq.mongodb.net/blogDB", {useNewUrlParser: true});
 const postSchema = new mongoose.Schema({
   title: String,
   content: String
