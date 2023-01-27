@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+    <div class="container-fluid">
+    <h1 style="color: #bebebe;"><%=title%></h1>
+    <p class="test" style="color: #ffffff"><%=content%></p>
+    <div style="margin-top: 50px;">
+        <div style="float: left;">
+            <form action="/" method="get">
+                <button class="buttons">Back</button>
+            </form>
+        </div>
+        <div style="float: right;">
+            <form action="/delete/<%=postID%>" method="post" >
+                <button class="buttons" >Delete</button>
+            </form>
+        </div>
+
+    </div>
+
+    </div>
+
+<%- include("partials/footer"); -%>
