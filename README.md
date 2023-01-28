@@ -15,6 +15,12 @@ Type the below command on your terminal to install nodemon.
 sudo npm install -g nodemon
 ```  
 Create a MongoDB Atlas account followed by a cluster and copy the connection string and replace the comment in app.js.  
+The connection string will be in the form of:  
+```
+"mongodb+srv://<username>:<password>@cluster0.kwefnxq.mongodb.net/<databaseName>"
+```  
+The databaseName given by the end of the string will be created by default.  
+
 Clone this repository and open a terminal in your local repository.  
 Type the below command on the terminal.  
 ```
